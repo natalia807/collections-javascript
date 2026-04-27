@@ -8,6 +8,10 @@ for (const value of nomes){
 //Somar todos os valores do Array
 const numeros = [5, 10, 15];
 
-for(let i = 0; i == 2; i++){
-    
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+    soma = soma + numeros[i];
 }
+
+console.log(soma);
